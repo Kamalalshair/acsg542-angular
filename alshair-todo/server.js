@@ -1,18 +1,15 @@
 var express = require('express');
 var app = express();
-var bodyParser = require('body-parser');
-
 var mongoose = require('mongoose');
-var schema = require('./schema_file.js').todoSchema;
 
-var ROOT_DIR = "./";
 var db = mongoose.connect('mongodb://localhost/mydb');
+var schema = require('./schema_file.js').todoSchema;
 var Items = mongoose.model('Items', schema);
 
 mongoose.connection.once('open', function () {
-    app.use(bodyParser.urlencoded({extended: true}));
-
+    app.use(express.static('./'))
     app.use('/', express.query());
+    app.use(express.json());
 
     app.delete("/", function (request, response) {
         // Items.remove({_id: request.query.id}).exec()
@@ -30,7 +27,7 @@ mongoose.connection.once('open', function () {
         newItem.save(newItem, function (err, doc) {
             console.log(doc);
             res.status(200);
-            res.send(JSON.stringify({}));
+            res.send(JSON.stringify(doc));
         });
     });
     app.get('/list', function (req, res) {
@@ -40,7 +37,6 @@ mongoose.connection.once('open', function () {
             res.send(JSON.stringify({docs}));
         });
     });
-    app.use('/', express.static('./'));
     app.listen(8080, function () {
         console.log("Application is Running!");
     });

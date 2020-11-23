@@ -20,17 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38398333-9bba-4094-8ae6-dc024a314d31" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/acsg542-angular.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alshair-todo/front-end/src/app/todo-component/todo-component.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alshair-todo/front-end/src/app/todo-component/todo-component.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alshair-todo/front-end/src/app/todo-component/todo-component.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alshair-todo/front-end/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/alshair-todo/front-end/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alshair-todo/front-end/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/alshair-todo/front-end/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alshair-todo/front-end/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/alshair-todo/front-end/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alshair-todo/front-end/src/app/todo-component/todo-component.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/alshair-todo/front-end/src/app/todo/todo.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alshair-todo/front-end/src/app/todo-component/todo-component.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/alshair-todo/front-end/src/app/todo/todo.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alshair-todo/front-end/src/app/todo-component/todo-component.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/alshair-todo/front-end/src/app/todo/todo.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alshair-todo/front-end/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/alshair-todo/front-end/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alshair-todo/front-end/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/alshair-todo/front-end/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alshair-todo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/alshair-todo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alshair-todo/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/alshair-todo/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +45,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -70,7 +70,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604245720517</updated>
-      <workItem from="1604245721645" duration="2307000" />
+      <workItem from="1604245721645" duration="2370000" />
+      <workItem from="1606105885982" duration="378000" />
+      <workItem from="1606117421930" duration="1449000" />
     </task>
     <servers />
   </component>
@@ -87,5 +89,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1606118000221">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606118000221" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1606118000221">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606118000221" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1606118000220">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606118000220" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1606118000221">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606118000221" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1606117924129">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1606117924129" />
   </component>
 </project>
