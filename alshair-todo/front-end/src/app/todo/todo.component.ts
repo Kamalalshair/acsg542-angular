@@ -7,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TodoComponent implements OnInit {
 
-  foods = ['burgers', 'fried chicken', 'steak', 'baked chicken', 'fried fish', 'sushi'];
+  public newFood;
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  saveName(): void {
+
   }
 
 }
