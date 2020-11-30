@@ -1,2 +1,7 @@
 <input [(ngModel)] = "newFood">
 <button (click) = "saveName()">Save</button>
+
+<h2>Legendary Food List of Ultimate Power and Grand Destiny (With a side of Mayo)</h2>
+<ul *ngFor="let food of foods">
+  <li>{{ food.item }}</li>
+</ul>

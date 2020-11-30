@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TodoService } from '../_services/todo.service';
 
 @Component({
   selector: 'app-todo',
@@ -8,13 +9,22 @@ import { Component, OnInit } from '@angular/core';
 export class TodoComponent implements OnInit {
 
   public newFood;
-  constructor() { }
+  public foods;
+
+  constructor(
+    private todoService: TodoService
+  ) { }
 
   ngOnInit(): void {
+    this.todoService.getAll().subscribe(returnFoods => {
+    this.foods = returnFoods.docs;
+    });
   }
 
   saveName(): void {
-
+    this.todoService.create(this.newFood).subscribe(saveFood => {
+      this.foods.push(saveFood);
+    });
   }
 
 }
